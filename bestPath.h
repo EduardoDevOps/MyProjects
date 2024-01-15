@@ -4,7 +4,8 @@ using namespace std;
 class bestPath
 {
 	public:
-	bestPath();   
+	bestPath();  
+	bool makeList(); 
 	void displayData(); 
 	bool createMatrix(int);
 	int bestBF(); 

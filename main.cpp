@@ -4,7 +4,8 @@ using namespace std;
 int main()
 {
 
-	bestPath Bp; 
-	Bp.createMatrix(10); 
+	bestPath bp; 
+	bp.createMatrix(10);
+	bp.makeList(); 
 	
 }
